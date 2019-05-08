@@ -1,7 +1,7 @@
 # example from class
 class Animal:
     # define attributes, assign initial values
-    def __init__(self, name, sound, species, num_legs = 2):
+    def __init__(self, name, sound, species, num_legs=2):
         self.name = name
         self.sound = sound
         self.species = species
@@ -13,6 +13,7 @@ class Animal:
 
     def make_sound(self):
         print(self.sound)
+
 
 # example instance of class
 animal_a = Animal("ernie", "pbbbbbt", "elephant", 4)
@@ -27,6 +28,8 @@ animal_a = Animal("ernie", "pbbbbbt", "elephant", 4)
 # constructor
 
 # YOUR CODE HERE
+
+
 class LatLon:
     def __init__(self, lat, lon):
         self.lat = lat
@@ -63,6 +66,7 @@ class GeoCache(Waypoint):
         return self.name + "geocache is located at lat: " + str(self.lat) + " and lon: " + str(self.lon) + ". This #" + str(self.size) + " sized item has a difficulty level of " + str(self.difficulty) + "."
 
 # Make a new waypoint and print it out: "Catacombs", 41.70505, -121.51521
+
 
 # YOUR CODE HERE
 waypoint = Waypoint("Catacombs", 41.70505, -121.51521)
