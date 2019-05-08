@@ -1,8 +1,34 @@
+# example from class
+class Animal:
+    # define attributes, assign initial values
+    def __init__(self, name, sound, species, num_legs = 2):
+        self.name = name
+        self.sound = sound
+        self.species = species
+        self.num_legs = num_legs
+
+    # define class functions
+    def set_num_legs(self, num):
+        self.num_legs = num
+
+    def make_sound(self):
+        print(self.sound)
+
+# example instance of class
+animal_a = Animal("ernie", "pbbbbbt", "elephant", 4)
+
+# example call class functions
+animal_a.make_sound()
+print(animal_a.num_legs)
+animal_a.set_num_legs(3)
+print(animal_a.num_legs)
+
 # Make a class LatLon that can be passed parameters `lat` and `lon` to the
 # constructor
 
 # YOUR CODE HERE
-        
+
+
 # Make a class Waypoint that can be passed parameters `name`, `lat`, and `lon` to the
 # constructor. It should inherit from LatLon. Look up the `super` method.
 
@@ -19,11 +45,11 @@
 
 # Without changing the following line, how can you make it print into something
 # more human-readable? Hint: Look up the `object.__str__` method
-print(waypoint)
+#print(waypoint)
 
 # Make a new geocache "Newberry Views", diff 1.5, size 2, 44.052137, -121.41556
 
 # YOUR CODE HERE
 
 # Print it--also make this print more nicely
-print(geocache)
+#print(geocache)
