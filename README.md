@@ -75,10 +75,10 @@ The suggested order for going through each of the directories is:
 
 * C `hello` -- Hello world
 * C `bignum` -- Print some big numbers
-* `datatypes` -- Experiment with type conversion
-* `modules` -- Learn to import from modules
+* C `datatypes` -- Experiment with type conversion
+* C `modules` -- Learn to import from modules
 * `printing` -- Formatted print output
-* `lists` -- Python's version of arrays
+* C `lists` -- Python's version of arrays
 * `tuples` -- Immutable lists typically for heterogenous data
 * `slices` -- Accessing parts of lists
 * `comprehensions` -- List comprehensions
@@ -88,7 +88,7 @@ The suggested order for going through each of the directories is:
 * `scopes` -- Global, Local, and Non-Local scope
 * `file_io` -- Read and write from files
 * `cal` -- Experiment with module imports and implement a text-based calendar
-* `classes` -- Classes and objects
+* C `classes` -- Classes and objects
 
 ## Stretch Goals
 
