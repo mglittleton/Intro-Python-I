@@ -79,7 +79,7 @@ The suggested order for going through each of the directories is:
 * C `modules` -- Learn to import from modules
 * C `printing` -- Formatted print output
 * C `lists` -- Python's version of arrays
-* `tuples` -- Immutable lists typically for heterogenous data
+* C `tuples` -- Immutable lists typically for heterogenous data
 * `slices` -- Accessing parts of lists
 * `comprehensions` -- List comprehensions
 * `dictionaries` -- Dictionaries
