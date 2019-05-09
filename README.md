@@ -80,8 +80,8 @@ The suggested order for going through each of the directories is:
 * C `printing` -- Formatted print output
 * C `lists` -- Python's version of arrays
 * C `tuples` -- Immutable lists typically for heterogenous data
-* `slices` -- Accessing parts of lists
-* `comprehensions` -- List comprehensions
+* C `slices` -- Accessing parts of lists
+* C `comprehensions` -- List comprehensions
 * `dictionaries` -- Dictionaries
 * `functions` -- Functions
 * `args` -- Arguments and Keyword Arguments
