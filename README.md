@@ -84,7 +84,7 @@ The suggested order for going through each of the directories is:
 * C `comprehensions` -- List comprehensions
 * C `dictionaries` -- Dictionaries
 * C `functions` -- Functions
-* `args` -- Arguments and Keyword Arguments
+* C `args` -- Arguments and Keyword Arguments
 * `scopes` -- Global, Local, and Non-Local scope
 * `file_io` -- Read and write from files
 * `cal` -- Experiment with module imports and implement a text-based calendar
