@@ -87,7 +87,7 @@ The suggested order for going through each of the directories is:
 * C `args` -- Arguments and Keyword Arguments
 * C `scopes` -- Global, Local, and Non-Local scope
 * C `file_io` -- Read and write from files
-* `cal` -- Experiment with module imports and implement a text-based calendar
+* C `cal` -- Experiment with module imports and implement a text-based calendar
 * C `classes` -- Classes and objects
 
 ## Stretch Goals
